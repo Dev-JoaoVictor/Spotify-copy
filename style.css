@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: black;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.header-logo {
+    margin: 20px;
+    width: 132px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.navigation-list{
+    display: flex;
+    list-style: none;
+}
+
+.navigation-list-link {
+    padding: 28px 17px;
+    cursor: pointer;
+}
+
+.navigation-list-link:hover {
+    color: #1ed760;
+}
+
