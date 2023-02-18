@@ -1,19 +1,28 @@
 header {
-    border: 1px solid red;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: #000000;
-  }
+  display: flex;
+  justify-content: space-around;
+  background-color: #000000;
+}
+
+#logo {
+  margin-top: 20px;
+  width: 132px;
+  height: 42px;
+}
 
 .header-list {
-  border: 1px solid blue;
   display: flex;
   list-style: none;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .header-item {
-  padding: 10px;
-  font-size: 16px;
-  font-weight: 400;
+  padding: 28px 17px;
+}
+
+.header-item:hover {
+  color: #1ed760;
+  cursor: pointer;
+
 }
