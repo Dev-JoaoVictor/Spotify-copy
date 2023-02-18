@@ -33,6 +33,7 @@ header {
 .navigation-list-link {
     padding: 28px 17px;
     cursor: pointer;
+ 
 }
 
 .navigation-list-link:hover {
