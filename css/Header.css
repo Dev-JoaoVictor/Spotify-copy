@@ -1,0 +1,19 @@
+header {
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #000000;
+  }
+
+.header-list {
+  border: 1px solid blue;
+  display: flex;
+  list-style: none;
+}
+
+.header-item {
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 400;
+}
