@@ -1,6 +1,8 @@
 .sectionOne {
     background-color: #f037a5;
     text-align: left;
+    padding-top: 72px;
+    padding-bottom: 40px;
 }
 
 .sectionOne-conteudo {
@@ -8,8 +10,6 @@
     flex-direction: column;
     margin: 0 49px;
     padding-left: 165px;
-    padding-top: 72px;
-    padding-bottom: 40px;
     justify-content: center;
 }
 
@@ -18,9 +18,9 @@
 }
 
 .sectionOne-text h2{
-   margin-top: 15px;
+   margin-top: 30px;
    font-size: 24px;
-   font-weight: 600;
+   font-weight: 500;
 }
 
 .sectionOne-button {

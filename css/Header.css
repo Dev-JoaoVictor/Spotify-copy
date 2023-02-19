@@ -2,6 +2,21 @@ header {
   display: flex;
   justify-content: space-around;
   background-color: #000000;
+  padding: 0 15px;
+}
+
+header a{
+  color: #121212;
+  clip: rect(1px, 1px, 1px, 1px);
+  display: block;
+  font-weight: 700;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 1px;
+  z-index: 1;
 }
 
 #logo {
@@ -24,5 +39,4 @@ header {
 .header-item:hover {
   color: #1ed760;
   cursor: pointer;
-
 }
