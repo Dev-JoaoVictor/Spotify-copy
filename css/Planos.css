@@ -10,7 +10,7 @@
     margin: 0px 49px;
 }
 
-.planos-header h2 {
+.planos-header-titulo{
     font-size: 32px;
     font-weight: bold;
     text-align: center;
@@ -18,14 +18,14 @@
     line-height: 1;
 }
 
-.planos-header p {
+.planos-header-texto {
     font-size: 16px;
     font-weight: bold;
     margin: 16px 0px;
     text-align: center;
 }
 
-.planos-pagamentos ul{
+.planos-pagamentos-lista{
     display: flex;
     list-style: none;
     justify-content: center;
@@ -33,7 +33,7 @@
     margin-top: 16px;
 }
 
-.planos-pagamentos li {
+.planos-pagamentos-lista-item {
     display: flex;
     margin-right: 7px;
     background-color: #ffffff;
@@ -46,6 +46,6 @@
     height: 20px;
 }
 
-.planos-pagamentos span {
+.planos-pagamentos-lista p{
     font-weight: bold;
 }
