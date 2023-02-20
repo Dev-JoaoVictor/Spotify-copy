@@ -132,3 +132,18 @@
 #button-duo {
   background: #ffc862;
 }
+
+/*Plano familia*/
+
+#card-familia {
+    border: 5px solid #a5bbd1;
+  }
+  
+  #span-familia {
+    background-color: #a5bbd1;
+    width: 182px;
+  }
+  
+  #button-familia {
+    background: #a5bbd1;
+  }
