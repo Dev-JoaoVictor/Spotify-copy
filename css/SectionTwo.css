@@ -1,6 +1,11 @@
+.sectionTwo {
+    background-color: #ffffff;
+}
+
 .sectionTwo-conteudo {
     display: flex;
     color: #000000;
+    background: #ffffff;
     align-items: center;
     margin: 0  174px;
     padding: 75px 15px;

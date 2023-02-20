@@ -2,6 +2,7 @@
 @import url('./css/SectionOne.css');
 @import url('./css/SectionTwo.css');
 @import url('./css/Planos.css');
+@import url('./css/Beneficios.css');
 
 * {
   margin: 0;
@@ -12,4 +13,5 @@
 body {
     font-family: 'Open Sans', sans-serif;
     color: #ffffff;
+    background: #000000;
 }

@@ -1,8 +1,10 @@
 .planos {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     background-color: #000000;
     color: #ffffff;
+    margin: 0 241px;
 }
 
 .planos-header {
