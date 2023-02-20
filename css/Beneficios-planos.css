@@ -37,23 +37,74 @@
   justify-content: space-between;
 }
 
-#beneficios-planos-tipo {
+.beneficios-planos-tipo {
   font-size: 24px;
   line-height: 24px;
   margin-bottom: 5px;
   font-weight: bold;
 }
 
-#beneficios-planos-conteudo-valor {
+.beneficios-planos-conteudo-valor {
   font-size: 24px;
   font-weight: 500;
 }
 
-#planos-span {
+.planos-span {
   text-align: end;
   font-size: 12px;
   text-transform: lowercase;
 }
+
+/*Lista Card*/
+
+.card-list {
+  list-style: none;
+  padding-bottom: 40px;
+}
+
+.card-list-item {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 600;
+  margin: 5px;
+}
+
+.card-list-item::before {
+  content: "•";
+  color: #fff;
+  padding-right: 10px;
+}
+
+/* Footer Card*/
+
+.card-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-footer-button {
+  justify-content: center;
+  text-align: center;
+  border-radius: 500px;
+  font-weight: 700;
+  padding-block: 14px;
+  padding-inline: 32px;
+  font-size: inherit;
+  width: 350px;
+  color: #000000;
+}
+
+.card-footer-text {
+  text-align: center;
+  margin-top: 12px;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+}
+
+/*Plano individual*/
 
 #card-individual {
   border: 5px solid #ffd2d7;
@@ -61,4 +112,23 @@
 
 #span-individual {
   background-color: #ffd2d7;
+}
+
+#button-individual {
+  background: #ffd2d7;
+}
+
+/*Plano duo*/
+
+#card-duo {
+  border: 5px solid #ffc862;
+}
+
+#span-duo {
+  background-color: #ffc862;
+  width: 182px;
+}
+
+#button-duo {
+  background: #ffc862;
 }
