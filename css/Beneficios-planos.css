@@ -147,3 +147,17 @@
   #button-familia {
     background: #a5bbd1;
   }
+/*Plano universitário*/
+
+  #card-universitario {
+    border: 5px solid #c4b1d4;
+  }
+  
+  #span-universitario {
+    background-color: #c4b1d4;
+    width: 182px;
+  }
+  
+  #button-universitario {
+    background: #c4b1d4;
+  }
