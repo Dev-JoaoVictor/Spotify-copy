@@ -3,6 +3,7 @@
 @import url('./css/SectionTwo.css');
 @import url('./css/Planos.css');
 @import url('./css/Beneficios.css');
+@import url('./css/Beneficios-planos.css');
 
 * {
   margin: 0;
