@@ -1,66 +1,64 @@
 .beneficios-planos {
-    display: flex;
-    justify-content: center;
-    margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
 }
 
 .beneficios-planos-list {
-    display: flex;
-    list-style: none;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
-
 .beneficios-planos-card {
-    display: flex;
-    flex-direction: column;
-    padding: 16px;
-    border-radius: 10px 10px;
-    width: 445px;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  border-radius: 10px 10px;
+  width: 445px;
 }
 
 .beneficios-planos-card-span {
-    font-size: 14px;
-    font-weight: 900;
-    border-radius: 4px;
-    padding: 4px 8px;
-    margin-right: 4px;
-    margin-bottom: 10px;
-    color: #000000;
-    width: 88%;
+  font-size: 14px;
+  font-weight: 900;
+  border-radius: 4px;
+  padding: 4px 8px;
+  margin-right: 4px;
+  margin-bottom: 10px;
+  color: #000000;
+  width: 88%;
 }
 
 .beneficios-planos-conteudo {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 #beneficios-planos-tipo {
-    font-size: 24px;
-    line-height: 24px;
-    margin-bottom: 5px;
-    font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  margin-bottom: 5px;
+  font-weight: bold;
 }
 
 #beneficios-planos-conteudo-valor {
-    font-size: 24px;
-    font-weight: 500;
+  font-size: 24px;
+  font-weight: 500;
 }
 
 #planos-span {
-    text-align: end;
-    font-size: 12px;
-    text-transform: lowercase;
+  text-align: end;
+  font-size: 12px;
+  text-transform: lowercase;
 }
 
 #card-individual {
-    border: 5px solid #ffd2d7;
+  border: 5px solid #ffd2d7;
 }
 
 #span-individual {
-    background-color: #ffd2d7;
+  background-color: #ffd2d7;
 }
-
