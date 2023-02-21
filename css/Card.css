@@ -1,12 +1,44 @@
 .planos-card {
     display: flex;
-    border: 2px solid red;
     height: 500px;
-    
+    margin-top: 25px;
+    gap: 15px;
 }
 
 .card {
-    background-color: green;
-    width: 50px;
-    height: 50px;
+    padding: 16px;
+    height: 300px;
+    border: 10px solid #ffd2d7;
+    border-radius: 10px;
+    display: grid;
+    grid-template-areas: 
+        "pr pr pr"
+        "tp tp tp"
+    ;
+
+    grid-template-rows: 30px;
+}
+
+.card-promotion {
+    grid-area: pr;
+    background-color: #ffd2d7;
+    padding: 4px 8px;
+    color: #000000;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 900;
+    margin: 0px 4px 10px 0px;
+    align-items: center;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 16px;
+}
+
+.card-promotion p {
+
+}
+
+.card-tipo {
+    grid-area: tp;
 }
