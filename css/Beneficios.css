@@ -2,21 +2,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 32px;
-    padding: 15px;
-    padding-left: 45px;
+    margin: 32px 0px;
     background: radial-gradient(circle at 100% 100%,#000 0,#000 7.4px,transparent 0) 0 0/12.4px 12.4px no-repeat,radial-gradient(circle at 0 100%,#000 0,#000 7.4px,transparent 0) 100% 0/12.4px 12.4px no-repeat,radial-gradient(circle at 100% 0,#000 0,#000 7.4px,transparent 0) 0 100%/12.4px 12.4px no-repeat,radial-gradient(circle at 0 0,#000 0,#000 7.4px,transparent 0) 100% 100%/12.4px 12.4px no-repeat,linear-gradient(#000,#000) 50% 50%/calc(100% - 10px) calc(100% - 24.8px) no-repeat,linear-gradient(#000,#000) 50% 50%/calc(100% - 24.8px) calc(100% - 10px) no-repeat,linear-gradient(54deg,#b00d6e,#ac0e6f 50%,#084791 98%);
     border-radius: 12px;
-}
-
-.beneficios-descricao {
     color: #ffffff;
+    padding: 15px 15px 15px 45px;
 }
 
 .beneficios-descricao-titulo {
     font-size: 24px;
-    margin-bottom: 12px;
-    margin-top: 24px;
+    margin: 24px 0px 12px;
 }
 
 .beneficios-descricao-lista {
