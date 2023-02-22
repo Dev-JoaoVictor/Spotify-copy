@@ -23,6 +23,39 @@
   font-weight: 500;
 }
 
+.sectionOne-button {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 35px;
+  align-items: center;
+}
+
+.sectionOne-button-element{
+  background: #000000;
+  padding: 14px 32px;
+  border-radius: 500px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.sectionOne-button-element:hover {
+  cursor: pointer;
+  transform: scale(1.04);
+  transition: all;
+}
+
+
+.button1 {
+  margin-right: 8px;
+ 
+}
+
+
+.button2{
+  border: 2px solid white;
+  background-color: transparent;
+  color: #000000;
+}
 
 .sectionOne-footer {
   margin-top: 40px;
