@@ -16,6 +16,7 @@
     grid-template-areas: 
         "pr pr pr"
         "ch ch ch"
+        "cf cf cf"
     ;
 
     grid-template-rows: 30px;
@@ -40,11 +41,14 @@
 
 }
 
+/*Card Header*/
+
 .card-header {
     grid-area: ch;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .tipo{
@@ -56,4 +60,11 @@
 .valor {
     font-size: 24px;
     font-weight: 500;
+}
+
+.card-footer {
+    grid: cf;
+    margin-left: 200px;
+    font-size: 12px;
+    
 }
