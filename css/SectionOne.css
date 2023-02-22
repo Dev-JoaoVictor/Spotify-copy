@@ -1,64 +1,31 @@
 .sectionOne {
-    background-color: #f037a5;
-    text-align: left;
-    padding-top: 72px;
-    padding-bottom: 40px;
+  background-color: #f037a5;
+  text-align: left;
+  padding-top: 72px;
+  padding-bottom: 40px;
 }
 
 .sectionOne-conteudo {
-    display: flex;
-    flex-direction: column;
-    margin: 0 49px;
-    padding-left: 165px;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 49px;
+  padding-left: 165px;
+  justify-content: center;
 }
 
-.sectionOne-title h1{
-    font-size: 40px;
+.sectionOne-title h1 {
+  font-size: 40px;
 }
 
-.sectionOne-text h2{
-   margin-top: 30px;
-   font-size: 24px;
-   font-weight: 500;
+.sectionOne-text h2 {
+  margin-top: 30px;
+  font-size: 24px;
+  font-weight: 500;
 }
 
-.sectionOne-button {
-    margin-top: 40px;
-    text-transform: uppercase;
-    font-weight: 700;
-}
-
-#btn1 {
-    margin-right: 10px;
-    border-radius: 500px;
-    background-color: #000000;
-    border: 2px solid #000000;
-    padding: 14px 32px;
-}
-
-#btn1:hover {
-    padding: 16px 34px;
-    transition: 0.2s;
-
-}
-
-#btn2 {
-    margin-right: 8px;
-    border-radius: 500px;
-    border: 2px solid #ffffff;
-    padding: 14px 32px;
-    color: #000000;
-}
-
-#btn2:hover {
-    padding: 16px 34px;
-    transition: 0.2s;
-
-}
 
 .sectionOne-footer {
-    margin-top: 40px;
-    font-size: 12px;
-    font-weight: bold;
+  margin-top: 40px;
+  font-size: 12px;
+  font-weight: bold;
 }
