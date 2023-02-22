@@ -1,70 +1,81 @@
 .planos-card {
-    display: flex;
-    height: 500px;
-    justify-content: flex-start;
-    margin-top: 25px;
-    gap: 15px;
+  display: flex;
+  height: 500px;
+  justify-content: flex-start;
+  margin-top: 25px;
+  gap: 15px;
 }
 
 .card {
-    padding: 16px;
-    width: max-content;
-    height: max-content;
-    border: 6px solid #ffd2d7;
-    border-radius: 10px;
-    display: grid;
-    grid-template-areas: 
-        "pr pr pr"
-        "ch ch ch"
-        "cf cf cf"
+  padding: 16px;
+  width: max-content;
+  height: max-content;
+  border: 6px solid #ffd2d7;
+  border-radius: 10px;
+  display: grid;
+  grid-template-areas:
+    "pr pr pr"
+    "ch ch ch"
+    "cf cf cf"
+    "cl  cl cl"
+    
     ;
-
-    grid-template-rows: 30px;
+  grid-template-rows: 30px 30px 20px 40px;
 }
 
 .card-promotion {
-    grid-area: pr;
-    padding: 4px 8px;
-    color: #000000;
-    border-radius: 4px;
-    font-size: 14px;
-    font-weight: 700;
-    margin: 0px 4px 10px 0px;
-    align-items: center;
-    text-transform: uppercase;
-    display: flex;
-    margin-right: 16px;
+  grid-area: pr;
+  padding: 4px 8px;
+  color: #000000;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0px 4px 10px 0px;
+  align-items: center;
+  text-transform: uppercase;
+  display: flex;
+  margin-right: 16px;
 }
 
 .individual {
-    background: #ffd2d7;
-
+  background: #ffd2d7;
 }
 
 /*Card Header*/
 
 .card-header {
-    grid-area: ch;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
+  grid-area: ch;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.tipo{
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 24px;
+.tipo {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 24px;
 }
 
 .valor {
-    font-size: 24px;
-    font-weight: 500;
+  font-size: 24px;
+  font-weight: 500;
 }
 
 .card-footer {
-    grid: cf;
-    margin-left: 200px;
-    font-size: 12px;
-    
+  grid: cf;
+  font-size: 12px;
+  margin-left: 200px;
+}
+
+.card-list {
+    grid-area: cl;
+    line-height: 22px;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.card-lis-item::before {
+    content: "•";
+    display: block;
+    color: #fff;
 }

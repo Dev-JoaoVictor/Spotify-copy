@@ -1,138 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">  
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">  <title>Spotify-copy</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Spotify-copy</title>
+  </head>
 
-<body>
+  <body>
     <header>
-        <a></a>
-        <div>
-            <img id="logo" src="img/logo.png"></img>
-        </div>
-        <navigation>
-            <ul class="header-list">
-                <li class="header-item">Premium</li>
-                <li class="header-item">Suporte</li>
-                <li class="header-item">Baixar</li>
-                <li class="header-item">|</li>
-                <li class="header-item">Inscrever-se</li>
-                <li class="header-item">Entrar</li>
-            </ul>
-        </navigation>
+      <a></a>
+      <div>
+        <img id="logo" src="img/logo.png" />
+      </div>
+      <navigation>
+        <ul class="header-list">
+          <li class="header-item">Premium</li>
+          <li class="header-item">Suporte</li>
+          <li class="header-item">Baixar</li>
+          <li class="header-item">|</li>
+          <li class="header-item">Inscrever-se</li>
+          <li class="header-item">Entrar</li>
+        </ul>
+      </navigation>
     </header>
     <main>
-        <section class="sectionOne">
-            <div class="sectionOne-conteudo">
-                <div class="sectionOne-title">
-                    <h1>Curta o Premium grátis por 2 meses</h1>
+      <section class="sectionOne">
+        <div class="sectionOne-conteudo">
+          <div class="sectionOne-title">
+            <h1>Curta o Premium grátis por 2 meses</h1>
+          </div>
+          <div class="sectionOne-text">
+            <h2>Depois, pague somente R$ 19,90/mês. Cancele quando quiser.</h2>
+          </div>
+          <div class="sectionOne-button">
+            <span id="btn1">Comece agora</span>
+            <span id="btn2">Ver planos</span>
+          </div>
+          <div class="sectionOne-footer">
+            <p>
+              <u>Sujeito a Termos e Condições.</u> Oferta de 2 meses grátis não
+              disponível para quem já usou o Premium.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="sectionTwo">
+        <div class="sectionTwo-conteudo">
+          <div class="sectionTwo-header">
+            <h2>Porque ser Premium?</h2>
+          </div>
+          <div class="sectionTwo-list">
+            <ul>
+              <li>
+                <div class="sectionTwo-img">
+                  <img src="assets/music.png" alt="" />
                 </div>
-                <div class="sectionOne-text">
-                    <h2>Depois, pague somente R$ 19,90/mês. Cancele quando quiser.</h2>
+                <div class="sectionTwo-text">
+                  <p class="sectionTwo-title">Modo offline.</p>
+                  <p class="sectionTwo-subtitle">Ouça música onde estiver.</p>
                 </div>
-                <div class="sectionOne-button">
-                    <span id="btn1">Comece agora</span>
-                    <span id="btn2">Ver planos</span>
+              </li>
+              <li>
+                <div class="sectionTwo-img">
+                  <img src="assets/anuncio.png" alt="" />
                 </div>
-                <div class="sectionOne-footer">
-                    <p><u>Sujeito a Termos e Condições.</u>  Oferta de 2 meses grátis não disponível para quem já usou o Premium.</p>
+                <div class="sectionTwo-text">
+                  <p class="sectionTwo-title">Ouça músicas sem anúncios.</p>
+                  <p class="sectionTwo-subtitle">Curta música sem anúncios.</p>
                 </div>
+              </li>
+              <li>
+                <div class="sectionTwo-img">
+                  <img src="assets/aleátorio.png" alt="" />
+                </div>
+                <div class="sectionTwo-text">
+                  <p class="sectionTwo-title">Ouça na ordem que quiser.</p>
+                  <p class="sectionTwo-subtitle">
+                    Qualquer música em qualquer ordem.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="sectionTwo-img">
+                  <img src="assets/headseat.svg" alt="" />
+                </div>
+                <div class="sectionTwo-text">
+                  <p class="sectionTwo-title">Qualidade de som superior.</p>
+                  <p class="sectionTwo-subtitle">Sinta o som.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="planos">
+        <div class="planos-header">
+          <h2 class="planos-header-titulo">Escolha seu plano Premium</h2>
+          <p class="planos-header-texto">
+            Ouça sem limites no seu celular, alto-falante e outros dispositivos.
+          </p>
+          <div class="planos-pagamentos">
+            <ul class="planos-pagamentos-lista">
+              <li class="planos-pagamentos-lista-item">
+                <img
+                  class="planos-logo"
+                  src="assets/visa.svg"
+                  alt="Logo Visa"
+                />
+              </li>
+              <li class="planos-pagamentos-lista-item">
+                <img
+                  class="planos-logo"
+                  src="assets/mastercard.svg"
+                  alt="Logo Visa"
+                />
+              </li>
+              <li class="planos-pagamentos-lista-item">
+                <img
+                  class="planos-logo"
+                  src="assets/amex.svg"
+                  alt="Logo Visa"
+                />
+              </li>
+              <li class="planos-pagamentos-lista-item">
+                <img class="planos-logo" src="assets/elo.svg" alt="Logo Visa" />
+              </li>
+              <li class="planos-pagamentos-lista-item">
+                <img
+                  class="planos-logo"
+                  src="assets/hiper.svg"
+                  alt="Logo Visa"
+                />
+              </li>
+              <p>+ outros 11</p>
+            </ul>
+          </div>
+        </div>
+        <div class="beneficios">
+          <div class="beneficios-descricao">
+            <h3 class="beneficios-descricao-titulo">
+              Todos os benefícios Premium
+            </h3>
+            <ul class="beneficios-descricao-lista">
+              <li class="beneficios-descricao-item">
+                Ouça músicas sem anúncios
+              </li>
+              <li class="beneficios-descricao-item">
+                Ouça em qualquer lugar - até quando estiver offline
+              </li>
+              <li class="beneficios-descricao-item">
+                Ouça músicas na ordem que quiser
+              </li>
+              <li class="beneficios-descricao-item">
+                Faça um plano pré-pago ou uma assinatura
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="planos-card">
+          <div class="card">
+            <div class="card-promotion individual">
+              <p>Faça uma assinatura e tenha 2 meses grátis</p>
             </div>
-        </section>
-        <section class="sectionTwo">
-            <div class="sectionTwo-conteudo">
-                <div class="sectionTwo-header">
-                    <h2>Porque ser Premium?</h2>
-                </div>
-                <div class="sectionTwo-list">
-                    <ul>
-                        <li>
-                            <div class="sectionTwo-img">
-                                <img src="assets/music.png" alt="">
-                            </div>
-                            <div class="sectionTwo-text">
-                                <p class="sectionTwo-title">Modo offline.</p>
-                                <p class="sectionTwo-subtitle">Ouça música onde estiver.</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="sectionTwo-img">
-                                <img src="assets/anuncio.png" alt="">
-                            </div>
-                            <div class="sectionTwo-text">
-                                <p class="sectionTwo-title">Ouça músicas sem anúncios.</p>
-                                <p class="sectionTwo-subtitle">Curta música sem anúncios.</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="sectionTwo-img">
-                                <img src="assets/aleátorio.png" alt="">
-                            </div>
-                            <div class="sectionTwo-text">
-                                <p class="sectionTwo-title">Ouça na ordem que quiser.</p>
-                                <p class="sectionTwo-subtitle">Qualquer música em qualquer ordem.</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="sectionTwo-img">
-                                <img src="assets/headseat.svg" alt="">
-                            </div>
-                            <div class="sectionTwo-text">
-                                <p class="sectionTwo-title">Qualidade de som superior.</p>
-                                <p class="sectionTwo-subtitle">Sinta o som.</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+            <div class="card-header">
+              <div class="card-header tipo">Individual</div>
+              <div class="card-header valor">R$19,90</div>
             </div>
-        </section>
-        <section class="planos">
-            <div class="planos-header">
-                <h2 class="planos-header-titulo">Escolha seu plano Premium</h2>
-                <p class="planos-header-texto" >Ouça sem limites no seu celular, alto-falante e outros dispositivos.</p>
-                <div class="planos-pagamentos">
-                    <ul class="planos-pagamentos-lista">
-                        <li class="planos-pagamentos-lista-item"><img class="planos-logo" src="assets/visa.svg" alt="Logo Visa"></li>
-                        <li class="planos-pagamentos-lista-item"><img class="planos-logo" src="assets/mastercard.svg" alt="Logo Visa"></li>
-                        <li class="planos-pagamentos-lista-item"><img class="planos-logo" src="assets/amex.svg" alt="Logo Visa"></li>
-                        <li class="planos-pagamentos-lista-item"><img class="planos-logo" src="assets/elo.svg" alt="Logo Visa"></li>
-                        <li class="planos-pagamentos-lista-item"><img class="planos-logo" src="assets/hiper.svg" alt="Logo Visa"></li>
-                        <p>+ outros 11</p>         
-                    </ul>
-                </div>
+            <div class="card-footer">
+              <p>/mês após o período da oferta</p>
             </div>
-            <div class="beneficios">
-                <div class="beneficios-descricao">
-                    <h3 class="beneficios-descricao-titulo">Todos os benefícios Premium</h3>
-                    <ul class="beneficios-descricao-lista">
-                        <li class="beneficios-descricao-item">Ouça músicas sem anúncios</li>
-                        <li class="beneficios-descricao-item">Ouça em qualquer lugar - até quando estiver offline</li>
-                        <li class="beneficios-descricao-item">Ouça músicas na ordem que quiser</li>
-                        <li class="beneficios-descricao-item">Faça um plano pré-pago ou uma assinatura</li>
-                    </ul>
-                </div>
+            <div class="card-list">
+                <ul>
+                    <li class="card-list-item">1 conta</li>
+                    <li class="card-list-item">Cancele quando quiser.</li>
+                </ul>
             </div>
-           <div class="planos-card">
-            <div class="card">
-                <div class="card-promotion individual">
-                    <p>Faça uma assinatura e tenha 2 meses grátis</p>
-                </div>
-                <div class="card-header">
-                    <div class="card-header tipo">Individual</div>
-                    <div class="card-header valor">R$19,90</div>
-                </div>
-                <div class="card-footer">
-                    <p>/mês após o periodo da oferta</p>
-                </div>
-            </div> 
-           </div> 
-        </section>
+          </div>
+        </div>
+      </section>
     </main>
-</body>
+  </body>
 </html>
