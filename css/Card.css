@@ -17,10 +17,10 @@
     "pr pr pr"
     "ch ch ch"
     "cf cf cf"
-    "cl  cl cl"
-    
-    ;
-  grid-template-rows: 30px 30px 20px 40px;
+    "cl cl cl"
+    "cb cb cb";
+
+  grid-template-rows: 30px 30px 20px 40px 1fr;
 }
 
 .card-promotion {
@@ -38,7 +38,7 @@
 }
 
 .individual {
-  background: #ffd2d7;
+  background-color: #ffd2d7;
 }
 
 /*Card Header*/
@@ -61,21 +61,51 @@
   font-weight: 500;
 }
 
+/*Card Footer */
+
 .card-footer {
   grid: cf;
   font-size: 12px;
   margin-left: 200px;
 }
 
+/* Card list */
+
 .card-list {
-    grid-area: cl;
-    line-height: 22px;
-    font-size: 14px;
-    margin-left: 20px;
+  grid-area: cl;
+  padding: 5px 16px 16px;
+  line-height: 22px;
+  font-size: 14px;
 }
 
 .card-lis-item::before {
-    content: "•";
-    display: block;
-    color: #fff;
+  content: "•";
+  display: block;
+  color: #fff;
+}
+
+/*Card button */
+
+.card-button {
+  grid-area: cb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding: 14px 32px;
+  border-radius: 500px;
+  background: #fff;
+  color: #000000;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.card-button:hover {
+  cursor: pointer;
+  transform: scale(1.04);
+  transition: all;
+}
+
+.individual {
+  background-color: #ffd2d7;
 }
