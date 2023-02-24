@@ -1,13 +1,16 @@
 .planos-card {
   margin: 50px 20px 0px;
+  display: flex;
+  
 }
 
 .card {
   color: #000000;
   padding: 16px 16px 0px;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 10px 10px 10px 10px;
   max-width: 400px;
-  border: 1px solid #000000;
+  margin-right: 16px;
+  box-shadow: rgb(0 0 0 / 30%) 0px 0px 8px;
 }
 
 .card-header-prom {
@@ -82,4 +85,11 @@ ion-icon {
   cursor: pointer;
   transform: scale(1.04);
   transition: all;
+}
+
+.card-footer {
+    padding-top: 4px;
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 10px;
 }
