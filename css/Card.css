@@ -1,67 +1,85 @@
 .planos-card {
-    margin: 50px 20px 0px;
-
+  margin: 50px 20px 0px;
 }
 
 .card {
-    color: #000000;
-    padding: 16px 16px 0px;
-    border-radius: 10px 10px 0px 0px;
-    max-width: 400px;
-    border: 1px solid #000000;
+  color: #000000;
+  padding: 16px 16px 0px;
+  border-radius: 10px 10px 0px 0px;
+  max-width: 400px;
+  border: 1px solid #000000;
 }
 
 .card-header-prom {
-    background-color: rgb(46, 119, 208);
-    font-weight: 900;
-    border-radius: 4px;
-    padding: 4px 8px;
-    margin: 0px 4px 10px 0px;
-    color: #ffffff;
+  background-color: rgb(46, 119, 208);
+  font-weight: 900;
+  border-radius: 4px;
+  padding: 4px 8px;
+  margin: 0px 4px 10px 0px;
+  color: #ffffff;
 }
 
 .card-header-pag {
-    border-radius: 4px;
-    font-weight: 900;
-    font-size: 14px;
-    padding: 4px 8px;
-    background-color: #ffffff;
-    color: rgb(29, 117, 222);
-    border: 1px solid rgb(29, 117, 222);
-    width: max-content;
-    margin: 0px 4px 10px 0px;
+  border-radius: 4px;
+  font-weight: 900;
+  font-size: 14px;
+  padding: 4px 8px;
+  background-color: #ffffff;
+  color: rgb(29, 117, 222);
+  border: 1px solid rgb(29, 117, 222);
+  width: max-content;
+  margin: 0px 4px 10px 0px;
 }
 
 .card-header-title {
-    font-size: 24px;
-    font-weight: bold;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .card-header-text1 {
-    font-size: 16px;
-    margin-bottom: 2px
+  font-size: 16px;
+  margin-bottom: 2px;
 }
 
 .card-header-text2 {
-    font-size: 16px;
-    margin-bottom: 24px;
+  font-size: 16px;
+  margin-bottom: 24px;
 }
 
 .card-header-list {
-    padding-top: 32px;
-    padding-bottom: 16px;
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
-
-.card-header-list-item {
-    
+  padding-top: 32px;
+  padding-bottom: 16px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 250px;
 }
 
 ion-icon {
-    font-size: 16px;
-    padding-right: 10px;
-    font-weight: bold;
+  font-size: 16px;
+  padding-right: 10px;
+  font-weight: bold;
+}
+
+.card-button {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-button-component {
+  background: #000000;
+  padding: 14px 32px;
+  border-radius: 500px;
+  width: 250px;
+}
+
+.card-button-component:hover {
+  cursor: pointer;
+  transform: scale(1.04);
+  transition: all;
 }
