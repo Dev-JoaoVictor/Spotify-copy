@@ -1,10 +1,11 @@
-@import url('./css/Header.css');
-@import url('./css/SectionOne.css');
-@import url('./css/SectionTwo.css');
-@import url('./css/Planos.css');
-@import url('./css/Beneficios.css');
-@import url('./css/Beneficios-planos.css');
-@import url('./css/Card.css');
+@import url("./css/Header.css");
+@import url("./css/SectionOne.css");
+@import url("./css/SectionTwo.css");
+@import url("./css/Planos.css");
+@import url("./css/Beneficios.css");
+@import url("./css/Beneficios-planos.css");
+@import url("./css/Card.css");
+@import url("./css/Footer.css");
 
 * {
   margin: 0;
@@ -13,6 +14,6 @@
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
-    color: #000000;
+  font-family: "Open Sans", sans-serif;
+  color: #000000;
 }

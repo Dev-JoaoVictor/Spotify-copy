@@ -1,0 +1,40 @@
+footer {
+    padding: 80px 0px 50px;
+    background-color: #000000;;
+    color: #ffff;
+}
+
+.footer-nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+}
+
+.footer-image {
+    padding: 0px 15px;
+}
+
+.img {
+    width: 132px;
+}
+
+.footer-nav-block {
+    padding: 0 15px;
+}
+
+.footer-nav-list {
+    list-style: none;
+}
+
+.footer-nav-list-title {
+    margin: 20px 0px;
+    color: #919496;
+}
+
+.footer-nav-list-item{
+    padding: 3px 0px 15px;
+}
+
+.footer-image {
+    padding: 0px 15px 0px;
+}
