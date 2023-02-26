@@ -4,10 +4,13 @@ footer {
     color: #ffff;
     display: flex;
     justify-content: center;
+    
 }
 
 .footer-nav {
     display: flex;
+    background: #000000;
+    margin: 0 241px;
 }
 
 .footer-image {
@@ -46,4 +49,29 @@ footer {
 
 .footer-image {
     padding: 0px 15px 0px;
+}
+
+.footer-sociais-item {
+    border-radius: 50%;
+   background: #222326;
+   display: flex;
+   align-items: center;
+}
+
+.footer-sociais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-sociais-item {
+    background: url(../assets/logo-instagram.svg);
+    width: 24px;
+    height: 24px;
+    color: #ffff;
+}
+
+.footer-sociais-item {
+    width: 54px;
+    height: 54px;
 }
