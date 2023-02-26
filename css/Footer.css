@@ -9,7 +9,6 @@ footer {
 .footer-nav {
   display: flex;
   background: #000000;
-  margin: 0 241px;
 }
 
 .footer-image {
@@ -51,6 +50,8 @@ footer {
 
 .footer-sociais {
     display: flex;
+    margin-left: 183px;
+    margin-right: 15px;
 }
 
 .footer-sociais-item {
